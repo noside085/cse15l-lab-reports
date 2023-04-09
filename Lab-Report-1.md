@@ -7,7 +7,7 @@ First download [Visual Studio Code](https://code.visualstudio.com/), the IDE (In
 that we will be using to connect to the server and run commands on. After downloading and opening the software, you
 should see something similar to the image below. 
 
-put image here
+![image](1.png)
 
 ## Step Two : Account Information
 
@@ -20,13 +20,13 @@ there will be a button with your account username for remote logging. Your usern
 After clicking the button, we need to set a password in order for us to login with it. Click on the "Global Password Change Tool"
 link. 
 
-Image 2
+![image](2.png)
 
 Then procceed to the "Proceed to the Password Change Tool" link, and type in your username for the remote logging.
 
-Image 3
+![image](3.png)
 
-Image 4
+![image](4.png)
 
 Following the instructions after typing in your username, the system should send an email to your UCSD email and from there
 you would be able to change your password for your `cs15lsp23xx` account.
@@ -46,7 +46,7 @@ to login, use `ssh` as followed to login:
 
 Remember to replace `xx` with the 2 letters of your own account! After inputting the `ssh` command, you will be greeted by this:
 
-Image 5
+![image](5.png)
 
 Since this is your first time logging in, it isn't unusual to see something that confirms your actions. Continue by typing
 `yes`. After doing so, the server will ask you to type in a password, which would be the one that you changed earlier. 
@@ -68,6 +68,6 @@ that you can run are listed below:
 3) `ls -a` - Brings up all entries, event the hidden ones
 4) `ls -t` - Gives the time modified for entries
 
-Image 6
+![image](6.png)
 
 
