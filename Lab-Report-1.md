@@ -58,14 +58,17 @@ However, in my case, not everything was smooth sailing. When logging into my `cs
 of errors instead of the Welcome message, and in order to login, I used my UCSD email username (xxxx@ucsd.edu) instead of 
 the `cs15lsp23xx` in front of `@ieng6.ucsd.edu` instead.
 
-Step 5: Running Commands Remotely
+## Step 5: Running Commands Remotely
 
 When you get to this step, you can explore a bit of the remote server by running a variety of commands. Some simple commands
 that you can run are listed below:
 
 1) `cd` -  Used for changing directories
+
 2) `ls` - Brings up a list of files and lists in the current directory
+
 3) `ls -a` - Brings up all entries, event the hidden ones
+
 4) `ls -t` - Gives the time modified for entries
 
 ![image](6.png)
