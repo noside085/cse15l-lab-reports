@@ -20,7 +20,7 @@ from having no strings stored to then store the string "Hi, this is Edison.". Th
 
 Second `/add-message?s=<String>` to the server: 
 
-![Image](L22png)
+![Image](L22.png)
 
 In this `/add-message?s=<String>`, the method "handleRequest" is called. The argument relevant to our method is 
 "localhost:805/add-message?s=This%20is%20my%20String%20Server", which is my URL. The fields that are relevant in the 
