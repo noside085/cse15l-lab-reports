@@ -34,7 +34,7 @@ Then `allStrings` is updated to become "Hi, this is Edison. /n This is my String
 
 Code with Bug:
 
-l25
+![Image](l25.png)
 
 Failure (`input2`) and Non-Failure (`input1`) Inputs:
 
@@ -48,9 +48,13 @@ Failure (`input2`) and Non-Failure (`input1`) Inputs:
     	assertArrayEquals(new int[]{ 5, 4, 3, 2, 1 }, input2);
 	}
 	
+Symptoms:
+
+![Image](L24.png)
+
 Bug Free Code:
 
-l26
+![Image](L26.png)
 
 The reason why the code before the changes would not run properly would be that in the For-loop, only `arr[i]` was being updated, 
 but thbe element corresponding to `arr[i]` on the opposite end of the array was not. For example, in an array that consists of the
