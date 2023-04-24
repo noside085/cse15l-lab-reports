@@ -34,8 +34,16 @@ Then `allStrings` is updated to become "Hi, this is Edison. /n This is my String
 
 Code with Bug:
 
-`  static void reverseInPlace(int[] arr) {
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = arr[arr.length - i - 1];
-    }
-  }`
+l25
+
+Failure Inducing Input:
+
+`public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+
+    int[] input2 = { 1, 2, 3, 4, 5 };
+    ArrayExamples.reverseInPlace(input2);
+    assertArrayEquals(new int[]{ 5, 4, 3, 2, 1 }, input2);
+	}`
