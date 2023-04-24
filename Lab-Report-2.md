@@ -30,3 +30,12 @@ to be presented to the user to show all the currernt strings on the website. Fro
 from having one string ("Hi, this is Edison.") to having two string, where the second string is "This is my String Server".
 Then `allStrings` is updated to become "Hi, this is Edison. /n This is my String Server".
 
+## Part 2
+
+Code with Bug:
+
+`  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }`
