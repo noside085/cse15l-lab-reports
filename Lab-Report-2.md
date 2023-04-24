@@ -36,7 +36,7 @@ Code with Bug:
 
 l25
 
-Failure Inducing Input:
+Failure (`input2`) and Non-Failure (`input1`) Inputs:
 
 	public void testReverseInPlace() {
 		int[] input1 = { 3 };
