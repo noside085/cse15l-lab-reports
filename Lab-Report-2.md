@@ -48,3 +48,15 @@ Failure (`input2`) and Non-Failure (`input1`) Inputs:
     	assertArrayEquals(new int[]{ 5, 4, 3, 2, 1 }, input2);
 	}
 	
+Bug Free Code:
+
+l26
+
+The reason why the code before the changes would not run properly would be that in the For-loop, only `arr[i]` was being updated, 
+but thbe element corresponding to `arr[i]` on the opposite end of the array was not. For example, in an array that consists of the
+elements 1, 2, 3, 4, 5 in the given order, element at index 0 would be updated to 5, but element at index 4 would not be updated.
+
+By reducing the lenth of the For-loop to only run through half of a given array and introducing a field `int temp` into the For-loop,
+this allows the program to first store the element at index i in `temp`, then change the value at `arr[i]` to the value at 
+`arr[arr.length - i - 1]`, then finally changing the value at `arr[arr.length - i - 1]` to `temp`-- which allows for the element to 
+continue reversing itself until the For-loop reaches the middle.
