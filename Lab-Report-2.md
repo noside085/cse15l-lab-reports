@@ -37,8 +37,8 @@ Code with Bug:
 l25
 
 Failure Inducing Input:
-
-`public void testReverseInPlace() {
+`
+public void testReverseInPlace() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
@@ -47,3 +47,4 @@ Failure Inducing Input:
     ArrayExamples.reverseInPlace(input2);
     assertArrayEquals(new int[]{ 5, 4, 3, 2, 1 }, input2);
 	}
+	`
