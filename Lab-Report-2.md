@@ -11,19 +11,19 @@ First `/add-message?s=<String>` to the server:
 ![Image](L23.png)
 
 In this `/add-message?s=<String>`, the method "handleRequest" is called. The argument relevant to our method is 
-"localhost:805/add-message?s=Hi,%20this%20is%20Edison", which is my URL. The fields that are relevant in the 
+`"localhost:805/add-message?s=Hi,%20this%20is%20Edison"`, which is my URL. The fields that are relevant in the 
 method would be `ArrayList<String> list` and `String allStrings`. `list` is used to store all the given strings
 by the user, and `allStrings` is a string that contains all the strings currently stored in `list`, which is used 
 to be presented to the user to show all the currernt strings on the website. From this specific request, `list` is updated 
-from having no strings stored to then store the string "Hi, this is Edison.". Then `allStrings` is updated to become
-"Hi, this is Edison.".
+from having no strings stored to then store the string `"Hi, this is Edison."`. Then `allStrings` is updated to become
+`"Hi, this is Edison."`.
 
 Second `/add-message?s=<String>` to the server: 
 
 ![Image](L22.png)
 
 In this `/add-message?s=<String>`, the method "handleRequest" is called. The argument relevant to our method is 
-"localhost:805/add-message?s=This%20is%20my%20String%20Server", which is my URL. The fields that are relevant in the 
+`"localhost:805/add-message?s=This%20is%20my%20String%20Server"`, which is my URL. The fields that are relevant in the 
 method would be `ArrayList<String> list` and `String allStrings`. `list` is used to store all the given strings
 by the user, and `allStrings` is a string that contains all the strings currently stored in `list`, which is used 
 to be presented to the user to show all the currernt strings on the website. From this specific request, `list` is updated 
@@ -64,3 +64,9 @@ By reducing the lenth of the For-loop to only run through half of a given array 
 this allows the program to first store the element at index i in `temp`, then change the value at `arr[i]` to the value at 
 `arr[arr.length - i - 1]`, then finally changing the value at `arr[arr.length - i - 1]` to `temp`-- which allows for the element to 
 continue reversing itself until the For-loop reaches the middle.
+
+## Part 3
+
+Something I learned about in labs 2 and 3 were how URLs actually worked. It was interesting to see how the URL was broken down, and how
+one can actually access different parts of the website just by interacting with the URL itself. I also learned how symptoms could differ from
+different types of bugs in a piece of code.
