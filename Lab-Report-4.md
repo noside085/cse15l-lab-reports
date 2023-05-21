@@ -2,5 +2,6 @@
 
 ## Logging in, Cloning, Running Failed Tests
 
-![image](4 (1).png)
+![image](lab4-png/4-1.png)
+
 
