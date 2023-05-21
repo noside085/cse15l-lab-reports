@@ -7,4 +7,6 @@
 
 ## Lab Report 3 : [Report](https://noside085.github.io/cse15l-lab-reports/Lab-Report-3)
 
+## Lab Report 4 : [Report](https://noside085.github.io/cse15l-lab-reports/Lab-Report-4)
+
 [test page](https://noside085.github.io/cse15l-lab-reports/test)
